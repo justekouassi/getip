@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Get My IP",
+	"version": "0.0.2",
+	"author": "ToutJavaScript.com",
+	"description": "Affiche votre adresse IP en un seul clic",
+	"content_security_policy": "default-src 'self' https://www.get-my-ip.com",
+	"browser_action": {
+		"default_title": "Get My IP",
+		"default_icon": "icon.png",
+		"default_popup": "index.html"
+	},
+	"icons": {
+		"16": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	}
+}
